@@ -7,7 +7,7 @@ defmodule What3words.Mixfile do
      version: @version,
      elixir: "~> 1.2",
      description: "Wrapper for the What3Words API",
-     package: package,
+     package: package(),
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      deps: deps(),
