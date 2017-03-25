@@ -33,7 +33,7 @@ defmodule What3words.Mixfile do
   defp deps do
     [{:credo, "~> 0.3", only: [:dev, :test]},
      {:poison, "~> 2.2"},
-     {:httpoison, "~> 0.8.3"},
+     {:httpoison, "~> 0.9.0"},
      {:ex_doc, github: "elixir-lang/ex_doc", only: :dev},
      {:earmark, ">= 0.0.0", only: :dev}]
   end
